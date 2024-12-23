@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .navbar-upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-menu .menu-icon {
+    
+    top: 20px;
+    left: 20px;
+    color: black;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar-lower {
+    position: relative;
+    text-align: center;
+  }
+  
+  .navbar-lower .welcome-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .navbar-lower .welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+  }
+  
